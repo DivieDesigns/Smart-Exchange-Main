@@ -354,9 +354,9 @@ body.active { overflow: hidden; }
 .nav-toggle-btn.active .line-3 { transform: rotate(-45deg) translate(4px, -5px); }
 
 .navbar {
-  position: absolute;
-  top: 100%;
-  left: 0;
+  /* position: absolute; */
+  /* top: 100%;
+  left: 0; */
   width: 100%;
   height: 100vh;
   background-color: var(--eerie-black-1);
@@ -1004,7 +1004,7 @@ address.footer-contact-link { max-width: 30ch; }
   .navbar,
   .navbar.active {
     all: unset;
-    margin-inline-end: auto;
+    /* margin-inline-end: auto; */
   }
 
   .navbar-list {
