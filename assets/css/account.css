@@ -1,0 +1,71 @@
+section.account-details{
+  padding-top: 120px;
+}
+
+div.acc-shit{
+  display: flex;
+  width: 400px;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin: auto;
+  background-color: var(--blue-crayola_10);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+div.acc-shit > h2{
+  font-size: 40px;
+  font-weight: 900;
+}
+
+div.acc-shit > h3{
+  color: rgb(255, 255, 255);
+  opacity: .7;
+}
+
+div.if-you-like{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+div.if-you-like > button.red{
+  background-color: var(--presian-red);
+  border-radius: 10px;
+}
+
+div.if-you-like > button.green{
+  background-color: var(--medium-sea-green);
+  border-radius: 10px;
+}
+
+div.graph-image{
+  background-color: var(--blue-crayola_10);
+  width: 450px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+div.graph-image > img.acc-graph{
+  width: 450px;
+  height: 250px;
+  margin-top: 40px;
+}
+
+section.acc-history{
+  /* margin: 0; */
+  padding: 20px;
+}
+
+/* div.history-details > h3.history-heading{
+  margin-top: 0;
+  font-size: 12px;
+} */
+
+h3.history-heading{
+  font-size: 21px;
+}

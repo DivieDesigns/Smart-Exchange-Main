@@ -17,6 +17,7 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/login.css">
+  <link rel="stylesheet" href="./assets/css/account.css">
 
   <!-- 
     - google font link
@@ -74,24 +75,30 @@
 
     </div>
   </header>
+  <section class="account-details">
+    <div class="acc-shit">
+      <h3 class="acc-balance">Current Balance</h3>
+      <h2 class="account-digits">$ 2,000.00</h2>
+    </div>
 
-  <section class="section login">
-      <h2 class="h2 section-title" style="text-align: center;">Login to continue</h2>
-      <div class="login-section">
-        <p class="input-title">Enter Email</p>
-        <input type="email"  id="email"
-        pattern=".+@globex\.com" size="30" required>
-        <p class="input-title">Enter Username</p>
-        <input type="text" id="username" name="username">
-        <p class="input-title">Enter Password</p>
-        <input type="password" id="pass" name="password"
-        minlength="8" required>
-        <p class="input-title">Confirm Password</p>
-        <input type="password">
-        <a type="submit" href="account.html" class="btn btn-primary" id="sign-in-btn">Sign Up</a>
-      </div>
+    <div class="if-you-like">
+      <button class="trade-mine btn btn-primary red">Sell</button>
+      <button class="trade-mine btn btn-primary green">Buy</button>
+      <!-- <button class="trade-mine btn btn-primary">Trade</button> -->
+    </div>
+
+    <div class="graph-image">
+      <img src="./assets/images/chart-1.svg" alt="profit chart" class="chart acc-graph">
+    </div>
   </section>
 
+  <section class="acc-history">
+    <div class="history-detials">
+      <h3 class="h2 history-heading">
+        Recent Transactions
+      </h3>
+    </div>
+  </section>
 
  <!-- 
     - custom js link
